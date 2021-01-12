@@ -37,10 +37,11 @@
   height: 4rem;
   text-align: left;
   overflow-wrap: anywhere;
+  overflow: hidden;
 }
 
 .img-container {
-  height: 300px;
+  max-height: 300px;
 }
 
 .img-container img {
