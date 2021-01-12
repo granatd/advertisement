@@ -21,6 +21,7 @@
 .items {
   display: flex;
   justify-content: center;
+  padding: 30px;
 }
 
 .items .item {
@@ -47,8 +48,8 @@
   display: flex;
   background-color: white;
   border-radius: 50%;
-  min-width: 60px;
-  min-height: 60px;
+  min-width: 90px;
+  min-height: 90px;
   justify-content: center;
   align-items: center;
 }
