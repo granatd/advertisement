@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 5px;
+  text-align: center;
+}
+
+.new_year_bar {
+  padding: 5px;
+  background-color: red;
+  margin-bottom: 5px;
+}
+
+.products {
+  background-color: lightpink;
+  padding: 10px;
+}
+
+.items {
+  display: flex;
+  justify-items: center;
+}
+
+.items .item {
+  width: 25%;
+  padding: 5px;
+  overflow-wrap: break-word;
+}
+
+.text {
+  display: flex;
+  justify-items: center;
+}
+
+.description {
+  height: 4rem;
+  text-align: left;
+}
+
+.img-container {
+  height: 300px;
+}
+
+.img-container img {
+  max-height: 100%;
+  max-width: 100%;
+}
