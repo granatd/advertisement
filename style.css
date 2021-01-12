@@ -43,6 +43,15 @@
   overflow: hidden;
 }
 
+.price {
+  display: flex;
+  background-color: white;
+  border-radius: 50%;
+  min-width: 60px;
+  min-height: 60px;
+  justify-content: center;
+  align-items: center;
+}
 .img-container {
   max-height: 300px;
 }
