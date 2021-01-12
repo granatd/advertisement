@@ -26,7 +26,6 @@
 .items .item {
   width: 25%;
   padding: 5px;
-  overflow-wrap: break-word;
 }
 
 .text {
@@ -37,6 +36,7 @@
 .description {
   height: 4rem;
   text-align: left;
+  overflow-wrap: anywhere;
 }
 
 .img-container {
