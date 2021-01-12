@@ -20,7 +20,7 @@
 
 .items {
   display: flex;
-  justify-items: center;
+  justify-content: center;
 }
 
 .items .item {
@@ -33,7 +33,7 @@
 
 .text {
   display: flex;
-  justify-items: center;
+  justify-content: center;
 }
 
 .description {
