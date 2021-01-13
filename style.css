@@ -93,6 +93,7 @@
 
 .see-more {
   color: black;
+  font-size: 12px;
   font-weight: bold;
 }
 
@@ -112,6 +113,9 @@
     font-size: 12px;
     font-weight: 500px;
   }
+  .see-more {
+    font-size: 10px;
+  }
 
   .items {
     flex-wrap: wrap;
@@ -130,5 +134,28 @@
   }
   #item4 {
     order: 4;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .new-year-bar {
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 18px;
+  }
+  .description {
+    font-size: 9px;
+  }
+  .price {
+    font-size: 12px;
+    width: 40px;
+    height: 40px;
+  }
+  .item .buy-now {
+    font-size: 10px;
+    font-weight: 400px;
+  }
+  .see-more {
+    font-size: 8px;
   }
 }
